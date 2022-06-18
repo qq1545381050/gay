@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("44.jpg");/*设置背景图片*/
+    background: url("https://thumbs2.imgbox.com/22/bb/q8k1p0W9_t.jpg");/*设置背景图片*/
     background-repeat: no-repeat;
     background-attachment: fixed;/*设置背景图不随网页滑动而改变*/
     background-size: cover;
@@ -25,7 +25,7 @@ body {
   display: block;/*将链接变为块元素*/
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 25px;
+  padding: 35px 45px;
   text-decoration: none;/*去掉链接的下划线*/
  }
  
