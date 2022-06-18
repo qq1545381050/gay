@@ -17,15 +17,20 @@ body {
 }
 /* 顶部导航条 */
 .top {
+	width: 1000px;
+	height: 50px;
+	background: lightgreen;
+	position: fixed;
+	top: 0;
     overflow: hidden;
-    background-color: black;(0, 0, 0, 0);
+    background-color: black(0, 0, 0, 0);
 }
 .top a {
   float: left;
   display: block;/*将链接变为块元素*/
   color: black;
   text-align: center;
-  padding: 35px 45px;
+  padding: 15px 40px;
   text-decoration: none;/*去掉链接的下划线*/
  }
  
@@ -34,7 +39,6 @@ body {
   background-color: #ddd;
   color: black;
 }
-
 /*正中间的字*/
 .avr{
     position: absolute;
