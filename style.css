@@ -18,12 +18,12 @@ body {
 /* 顶部导航条 */
 .top {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: black;(0, 0, 0, 0);
 }
 .top a {
   float: left;
   display: block;/*将链接变为块元素*/
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 35px 45px;
   text-decoration: none;/*去掉链接的下划线*/
