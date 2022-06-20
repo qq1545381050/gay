@@ -156,13 +156,13 @@ audio {
     }
 .bt {
     cursor: pointer; /*使鼠标放上边显示手指形状*/
-    width: 25%; /*设置宽*/
+    width: 100%; /*设置宽*/
     height: 50px; /*设置高*/
     display: block; /*行内元素设置宽高不生效，使用display:block;可以将行内元素设置为块集元素 */
     text-align: center; /*文字在容器中横向居中*/
     line-height: 40px; /*当数值与height一样的时候文字垂直居中*/
     text-decoration: none; /*将文字下划线去除*/
-    background-image: linear-gradient(rgba(211, 104, 29, 0.95),rgba(5,72,99,0.95)); /*设置元素背景颜色：渐变*/
+    background-image: linear-gradient(blue;(211, 104, 29, 0.95),blue;(5,72,99,0.95)); /*设置元素背景颜色：渐变*/
     color: rgba(0, 0, 0, 0.60); /*设置文字颜色*/
     border: none;  /*去除边框*/
     margin-bottom: 10px; /*下部外边框距离10像素*/
