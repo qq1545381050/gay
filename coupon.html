@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的优惠券</title>
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link type="text/css" rel="stylesheet" href="themes/css/base.css">
+    <link type="text/css" rel="stylesheet" href="themes/css/home.css">
+    <script type="text/javascript" src="themes/js/jquery.min.js"></script>
+    <script type="text/javascript" src="themes/js/slider.js"></script>
+    <script type="text/javascript" src="themes/js/tab.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".aui-head-title").click(function(){
+                $(this).toggleClass("aui-current-up").siblings(".aui-head-title").removeClass("aui-current-up");
+                $(this).toggleClass("aui-current-tx").siblings(".aui-head-title").removeClass("aui-current-tx");
+                $(this).next(".aui-box-content").slideToggle(100).siblings(".aui-box-content").slideUp(400);
+            })
+        })
+    </script>
+</head>
+<body>
+
+<section class="aui-flexView">
+    <header class="aui-navBar aui-navBar-fixed b-line">
+        <a href="javascript:history.back(-1)" class="aui-navBar-item">
+            <i class="icon icon-return"></i>
+        </a>
+        <div class="aui-center">
+            <span class="aui-center-title">我的优惠券</span>
+        </div>
+        <a href="javascript:;" class="aui-navBar-item">
+            <i class="icon icon-sys"></i>
+        </a>
+    </header>
+    <section class="aui-scrollView">
+        <div class="aui-coupon-one">
+            <div class="aui-coupon-three">
+                <div class="aui-coupon-four">
+                    <div class="aui-flex">
+                        <div class="aui-flex-title">
+                            <h4><em>1</em>折</h4>
+                        </div>
+                        <div class="aui-flex-box">
+                            <h2>折扣券</h2>
+                            <p>有效期：2022-12-31</p>
+                        </div>
+                    </div>
+                    <div class="aui-head-title aui-current-up ">使用规则</div>
+                    <div class="aui-box-content" style="display:block">
+                        <p>此优惠券只限用于新人购买一次长视频服务，需不得转增不得变现，每人每个手机号仅限一次优惠。</p><p>购买长视频请联系QQ：1546625615</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+</body>
+</html>
